@@ -16,3 +16,9 @@ def test_minimum():
     assert ci_course.minimum(1, 2, 3) == 1
     assert ci_course.minimum(1.2, 2.3) == 1.2
     assert ci_course.minimum(-1.2, -3) == -3
+
+def test_minimum_with_strings():
+    """
+    Test the function `minimum` in functionality.py with strings, which should not return anything if solely strings are passed in
+    """
+    assert(ci_course.minimum("apple", "banana") is None)
