@@ -21,4 +21,4 @@ def test_minimum_with_strings():
     """
     Test the function `minimum` in functionality.py with strings, which should not return anything if solely strings are passed in
     """
-    assert(ci_course.minimum("apple", "banana") is None)
+    assert ci_course.minimum("apple", "banana") is None
